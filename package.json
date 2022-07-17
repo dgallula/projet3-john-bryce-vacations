@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "and": "^0.0.3",
+    "client": "^0.0.1",
+    "install": "^0.13.0",
+    "server": "^1.0.37",
+    "webpack": "^5.73.0"
+  }
+}
