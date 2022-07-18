@@ -13,8 +13,7 @@ import { addNotification } from "./stateManagement/notifications.js";
 import { signIn } from "./stateManagement/user";
 import CryptoJS from "crypto-js";
 import keys from "./common/config";
-import Footer from "./components/layout/footer/Footer";
-  
+   
 const socket = io.connect("http://localhost:5001");
 
 function App() {
@@ -82,8 +81,7 @@ function App() {
               <Route path='*' element={<Navigate to='/vacations' replace />} />
             </>
           )}
-         <Footer/>
-        </Routes>
+         </Routes>
       </main>
     </div>
   );
