@@ -204,7 +204,7 @@ const MainNavigation = (props) => {
               component='div'
               sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
             >
-              Vacations.com
+              bon-voyage.com
             </Typography>
             {user.isSignIn && (
               <>
